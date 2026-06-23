@@ -1,0 +1,6 @@
+{
+  "name": "HR Pulse",
+  "description": "A comprehensive, intelligent Human Resources Management System designed for modern HR teams to monitor and manage employee records, attendance, leave requests, recruitment, payroll, and appraisals with smart AI assistance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -91,13 +91,63 @@ The application simplifies HR operations by providing tools for employee record 
 ## Project Structure
 
 ```text
-app/
-├── ui/
-├── screens/
-├── components/
-├── data/
-├── repository/
-├── network/
-├── model/
-├── utils/
-└── viewmodel/
+├── app/
+│   ├── src/
+│   │   ├── androidTest/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/
+│   │   │   │       └── example/
+│   │   │   │           ├── api/
+│   │   │   │           │   └── GeminiHelper.kt
+│   │   │   │           ├── data/
+│   │   │   │           │   ├── database/
+│   │   │   │           │   │   ├── HrDao.kt
+│   │   │   │           │   │   ├── HrDatabase.kt
+│   │   │   │           │   │   └── HrEntities.kt
+│   │   │   │           │   └── repository/
+│   │   │   │           │       └── HrRepository.kt
+│   │   │   │           ├── ui/
+│   │   │   │           │   ├── screens/
+│   │   │   │           │   │   └── HrMainLayout.kt
+│   │   │   │           │   ├── theme/
+│   │   │   │           │   │   ├── Color.kt
+│   │   │   │           │   │   ├── Theme.kt
+│   │   │   │           │   │   └── Type.kt
+│   │   │   │           │   └── viewmodel/
+│   │   │   │           │       └── HrViewModel.kt
+│   │   │   │           └── MainActivity.kt
+│   │   │   ├── res/
+│   │   │   │   ├── drawable/
+│   │   │   │   ├── mipmap-anydpi-v26/
+│   │   │   │   ├── mipmap-hdpi/
+│   │   │   │   ├── mipmap-mdpi/
+│   │   │   │   ├── mipmap-xhdpi/
+│   │   │   │   ├── mipmap-xxhdpi/
+│   │   │   │   ├── mipmap-xxxhdpi/
+│   │   │   │   ├── values/
+│   │   │   │   │   ├── colors.xml
+│   │   │   │   │   ├── strings.xml
+│   │   │   │   │   └── themes.xml
+│   │   │   │   └── xml/
+│   │   │   └── AndroidManifest.xml
+│   │   └── test/
+│   │       └── java/
+│   │           └── com/
+│   │               └── example/
+│   │                   ├── ExampleRobolectricTest.kt
+│   │                   ├── ExampleUnitTest.kt
+│   │                   └── GreetingScreenshotTest.kt
+│   ├── screenshots/
+│   ├── .gitignore
+│   ├── build.gradle.kts
+│   └── proguard-rules.pro
+├── assets/
+├── gradle/
+├── .env.example
+├── .gitignore
+├── build.gradle.kts
+├── gradle.properties
+├── local.properties
+├── metadata.json
+└── settings.gradle.kts
